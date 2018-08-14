@@ -1,0 +1,16 @@
+from class1 import Student
+
+student = Student('Cassie', 18)
+student2 = Student("Trial", 19)
+student.doHomework()
+print(student.name)
+print(student.age)
+print(student2.name)
+print(student2.age)
+#print(Student.name)
+#print(Student.age)
+print(student.__dict__)
+print(Student.__dict__)
+print('sum:' + str(Student.sum))
+student.trial()
+print('Last sum: ' + str(Student.sum))
